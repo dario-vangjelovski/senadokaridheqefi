@@ -1,0 +1,30 @@
+body{
+    margin-top:60px;
+    background-color:#162411;
+    color:white;
+    text-align:center;
+    font-family: 'Open Sans', sans-serif;
+}
+.aes{
+    background-color:#0e614675;
+    color:white;
+    padding:20px;
+    margin-left: 500px;
+    margin-right:500px;
+    border:3px solid black;
+}
+
+
+::placeholder{
+    color:#043927
+}
+select{
+    color:#043927
+}
+.divider{
+    border-bottom:1px solid black;
+    margin:5px 0 0 0;
+}
+.rregullo{
+    text-align: left;
+}

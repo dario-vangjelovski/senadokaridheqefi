@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pyetesor</title>
+    <link rel="stylesheet" href="nje gjecke kshu.css">
+</head>
+  <body>
+    <div class="aes">
+        <header id="title">Pyetesor se na do kari dhe qejfi</header>
+          <div class="divider"></div>
+        <p id="description">Faleminderit qe morret kohen te na ndohmoni te sqarojme dy tre gjera</p>
+      
+    
+      <form id="survey-form">
+        <label id="name-label">Emer</label>
+        <input class="change" required id="name" type="text" placeholder="Vendos emrin">
+        <br><br>
+    
+        <label id="email-label">Email</label>
+        <input class="change" required id="email" type="email" placeholder="Vendos email-in">
+        <br><br>
+    
+        <label id="number-label">Sa rrote kari je nga 1 ne 10 (opsionale)</label>
+        <input class="change" required id="number" type="number" placeholder="Pa turp" min="1" max="10">
+        <br><br>
+    
+        <label for="dropdown">Kush nga emertimet e meposhtme ndjen se te perfaqeson me shume?</label>
+        <select class="change" id="dropdown">
+          <option>I shkathet(si Filipi)</option>
+          <option>Tip llogaritar(si Xhacka)</option>
+          <option>Baballak</option>
+          <option>As t'a ndjen fare(si Gjyshka)</option>
+          <option>I ke tera nen kontroll(si Mokja)</option>
+       </div> 
+        </select>
+        <br><br>
+    
+        <label for="checkbox">Sa here ke vjellur gjate gjimnazit(nuk merren parasysh shkaqe shendetesore)?</label>
+        <br>
+        <label>
+          <input id="checkbox" name="radio1" type="radio" value="Yes"> 1
+        </label>
+        <br>
+        <label>
+          <input id="checkbox" type="radio" name="radio1" value="No"> diku te 5
+        </label>
+        <br>
+        <label>
+          <input id="checkbox" type="radio" name="radio1" value="Maybe"> i kam qire ropt
+        </label>
+        <br><br>
+    
+        <label>Cfare do te doje te perfshinte nje mbledhje midis cunas?(Mund te zgjedhesh me shume se nje)</label>
+        <br>
+    <div class="rregullo">
+        <label>
+          <input type="checkbox" name="interest" value="coding"> Uiski
+        </label>
+        <br>
+        <label>
+          <input type="checkbox" name="interest" value="design"> Serenata korcare
+        </label>
+        <br>
+        <label>
+          <input type="checkbox" name="interest" value="coding"> Drogee(jo per ty cimi)
+        </label>
+        <br>
+        <label>
+          <input type="checkbox" name="interest" value="coding"> Raki
+        </label>
+        <br>
+        <label>
+          <input type="checkbox" name="interest" value="coding"> Konjak
+        </label>
+        <br>
+        <label>
+          <input type="checkbox" name="interest" value="coding"> Birra gjithe naten mo plak
+        </label>
+        <br><br>
+    </div>
+        <label for="textarea">Si do te ishte per ty nje mbledhje perfekte midis cunas?</label>
+        <br>
+        <textarea class="change" id="textarea" placeholder="Write your suggestion"></textarea>
+        <br><br>
+    
+        <input id="submit" type="submit" value="Shtyp ketu dhe dergo pergjigjet">
+      </form>
+    
+
+  </body>
+</html>
